@@ -47,7 +47,7 @@ def check_url(url):
 def get_verdict(score):
     if score < 2:
         return "Safe"
-    elif  2 <= score <= 3:
+    elif  2 <= score <= 4:
         return "Suspicious"
     else: 
         return "Likely Phishing"
